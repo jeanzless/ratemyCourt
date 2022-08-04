@@ -13,3 +13,4 @@ def createCourts():
     print(request.json, type(request.json))
     courtsDB["courts"].append(request.json)
     return request.json
+
